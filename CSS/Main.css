@@ -1,6 +1,10 @@
 .container-fluid {
     padding: 0px;
 }
+.gi-2x{
+  font-size: 2em;
+
+}
 
 .full {
   background: url(../IMG/Main.jpg) no-repeat center center fixed;
@@ -9,4 +13,21 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+}
+
+.see_more{
+  position:absolute;
+  top:100vh;
+  transform:translateY(-120%);
+  width:100%;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+.see_more .message{
+  color: rgba(255,255,255,0.7);
+}
+.see_more .message:hover{
+  color: rgba(255,255,255,1);
 }

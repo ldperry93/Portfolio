@@ -56,11 +56,48 @@ margin-right: 0px;
   background-color: white;
 }
 
-.main_projects{
-  background-color: #eee;
-  min-height: 500px;
-}
+
 
 .quote{
   background-color: #092A32;
 }
+
+.test{
+  background-color: red;
+}
+
+
+/* PROJECT SECTION */
+.main_projects{
+  background-color: #eee;
+  min-height: 300px;
+}
+.project{
+  width: 90%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.32);
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.project:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.32);
+    cursor: pointer;
+}
+.project_image{
+  background-color: white;
+  text-align: center;
+  min-height: 300px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.project_details{
+  background-color: white;
+  text-align: center;
+  padding: .20em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #4f4e4e;
+}
+
+
+/* CONTACT SECTION */

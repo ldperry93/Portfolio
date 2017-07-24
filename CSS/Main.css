@@ -3,7 +3,11 @@
 }
 .gi-2x{
   font-size: 2em;
+}
 
+.row{
+margin-left: 0px;
+margin-right: 0px;
 }
 
 .full {
@@ -30,4 +34,33 @@
 }
 .see_more .message:hover{
   color: rgba(255,255,255,1);
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.about_text{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 1.25em;
+  max-width: 1200px;
+}
+
+.filler{
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+.main_projects{
+  background-color: #eee;
+  min-height: 500px;
+}
+
+.quote{
+  background-color: #092A32;
 }

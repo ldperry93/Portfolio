@@ -70,7 +70,7 @@ margin-right: 0px;
   margin-bottom: 2em;
 }
 .project:hover{
-    box-shadow: 0 2px 4px rgba(0,0,0,0.32);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.32);
     cursor: pointer;
 }
 .project_image{
@@ -92,6 +92,26 @@ margin-right: 0px;
   font-size: 1.2em;
   font-weight: bolder;
   color: #4f4e4e;
+}
+.project_details a:hover{
+  text-decoration: none;
+}
+.project_skill {
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: .75em;
+  line-height: 1.10em;
+  padding: 2px 4px;
+  margin-top: 0.8em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
 
 /* CONTACT SECTION */

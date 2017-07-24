@@ -1,15 +1,19 @@
+/* GENERAL USE */
 .container-fluid {
     padding: 0px;
 }
-.gi-2x{
-  font-size: 2em;
-}
-
 .row{
 margin-left: 0px;
 margin-right: 0px;
 }
+.gi-2x{
+  font-size: 2em;
+}
+.center{
+    margin: 0 auto;
+}
 
+/* MAIN IMAGE SECTION */
 .full {
   background: url(../IMG/Main.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -18,7 +22,6 @@ margin-right: 0px;
   background-size: cover;
   height: 100vh;
 }
-
 .see_more{
   position:absolute;
   top:100vh;
@@ -36,10 +39,12 @@ margin-right: 0px;
   color: rgba(255,255,255,1);
 }
 
-.center{
-    margin: 0 auto;
+/* ABOUT SECTION */
+.filler{
+  height: 2px;
+  width: 100%;
+  background-color: white;
 }
-
 .about_text{
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -49,23 +54,9 @@ margin-right: 0px;
   font-size: 1.25em;
   max-width: 1200px;
 }
-
-.filler{
-  height: 2px;
-  width: 100%;
-  background-color: white;
-}
-
-
-
 .quote{
   background-color: #092A32;
 }
-
-.test{
-  background-color: red;
-}
-
 
 /* PROJECT SECTION */
 .main_projects{
@@ -89,6 +80,10 @@ margin-right: 0px;
   padding-top: 5em;
   padding-bottom: 5em;
 }
+.project_image img{
+  width: 11em;
+  height: 11em;
+}
 .project_details{
   background-color: white;
   text-align: center;
@@ -98,6 +93,5 @@ margin-right: 0px;
   font-weight: bolder;
   color: #4f4e4e;
 }
-
 
 /* CONTACT SECTION */

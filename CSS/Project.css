@@ -1,0 +1,19 @@
+.code_img{
+  height: 35vh;
+  background-image: url(../IMG/Code.png);
+  text-align: center;
+}
+.code_img span{
+  color: #4A4A4A;
+  text-transform: uppercase;
+  background-color: white;
+  padding: .3em;
+  padding-top: .05em;
+  padding-bottom: .05em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.9em;
+  font-weight: 700;
+  display: inline-block;
+  min-height: 8vh;
+  margin-top: 13vh;
+}

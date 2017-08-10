@@ -2,6 +2,7 @@
   height: 35vh;
   background-image: url(../IMG/Code.png);
   text-align: center;
+  min-height: calc(2.9em + 29vh);
 }
 .code_img span{
   color: #4A4A4A;
@@ -16,4 +17,53 @@
   display: inline-block;
   min-height: 8vh;
   margin-top: 13vh;
+}
+
+.header{
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  height: 4.5em;
+}
+.name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4em;
+  padding-left: 2em;
+  padding-top: .2em;
+  color: #999999;
+}
+.center{
+  text-align: center;
+}
+.center img{
+  height: 8em;
+  position: absolute;
+  left: calc(50% - 4em);
+}
+.right{
+  text-align: right;
+}
+
+.icon {
+  height: 3em;
+  width: 3em;
+  display:block;
+  float: right;
+  margin-top: .6em;
+}
+.linkedin{
+  background:transparent  url(../IMG/linkedin.png) center top no-repeat;
+  background-size: 3em 3em;
+  margin-right: .8em;
+}
+.linkedin:hover{
+  background:transparent  url(../IMG/linkedin_hover.png) center top no-repeat;
+  background-size: 3em 3em;
+}
+.github{
+  background:transparent  url(../IMG/github.png) center top no-repeat;
+  background-size: 3em 3em;
+  margin-right: 2em;
+}
+.github:hover{
+  background:transparent  url(../IMG/github_hover.png) center top no-repeat;
+  background-size: 3em 3em;
 }

@@ -55,7 +55,7 @@ margin-right: 0px;
   max-width: 1200px;
 }
 .quote{
-  background-color: #37424b;
+  background-color: #4484CE;
 }
 
 /* PROJECT SECTION */
@@ -92,8 +92,9 @@ margin-right: 0px;
   font-size: 1.2em;
   font-weight: bolder;
   color: #4f4e4e;
+  text-decoration: none;
 }
-.project_details a:hover{
+.project_details:hover{
   text-decoration: none;
 }
 .project_skill {
@@ -113,7 +114,9 @@ margin-right: 0px;
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-
+.project_skill:hover {
+  text-decoration: none;
+}
 /* CONTACT SECTION */
 .contact_main{
   background-color: #313439;
@@ -125,4 +128,86 @@ margin-right: 0px;
   font-size: 2.7em;
   font-family: 'Questrial', sans-serif;
   font-weight: bold;
+}
+
+.connect{
+  text-align: center;
+  color: #cf6766;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.4em;
+  margin-top: 1em;
+}
+
+.social{
+  width: 80%;
+  max-width: 60vw;
+  background-color: white;
+  border-width: 2px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-style: solid;
+  border-color: #444444;
+  text-align: center;
+}
+.social:hover{
+  border-color: #cf6766;
+}
+.social img {
+  width: 80%;
+  padding: 10px;
+}
+
+.no_roll a{
+  text-decoration: none;
+}
+
+.contact_me input[type=submit] {
+  border: 0;
+  background-color: #d84e5b;
+  color: white;
+  font-size: 1.45em;
+  padding-top: .35em;
+  padding-bottom: .35em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.contact_me input[type=submit]:hover {
+  background-color: #bc3441;
+}
+
+.contact_me input[type=text], textarea {
+  width: 100%;
+  background: none;
+  color: white;
+  font-size: 1.45em;
+  border: none;
+
+  border-bottom: 1px solid #888a8c;
+  margin-bottom: 1.5em;
+}
+
+.contact_me textarea{
+  border: 1px solid #888a8c;
+}
+
+.contact_me input[type=text]:focus, textarea:focus{
+  outline: none;
+  border-color: #cf6766;
+}
+
+.labels{
+  color: #888a8c;
+  text-align: left;
+  font-family: "open sans Condensed";
+  font-weight: bold;
+}
+
+
+
+.glyphicon-envelope{
+  color: #bc3441;
+  font-size: 1.3em;
 }

@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
   <!-- Jquery and Bootstrap javascript imports -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -46,7 +47,7 @@
 <!-- Project Section -->
 <div class="container-fluid main_projects">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 no_roll">
       <a href="./Projects/C412.html"> <!-- C412 Project -->
       <div class="project center">
         <div class="project_image" style="background-color: #6aa0aa;"><img src="IMG/Projects/C412.png" /></div>
@@ -59,10 +60,10 @@
       </a>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 no_roll">
       <a href="/Projects/DA.html"> <!-- DA Project -->
       <div class="project center">
-        <div class="project_image" style="background-color: #ddb67a;"><img src="IMG/Projects/DA.png" /></div>
+        <div class="project_image" style="background-color: #CCDFC8;"><img src="IMG/Projects/DA.png" /></div>
         <div class="project_details">Charlotte District Attorney - Website <br>
           <span class="project_skill">HTML</span>
           <span class="project_skill">CSS</span>
@@ -74,7 +75,7 @@
       </a>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 no_roll">
       <a href="/Projects/WNCCAdmin.html"> <!-- WNCC Admin Project -->
       <div class="project center">
         <div class="project_image" style="background-color: #d8d8d8;"><img src="IMG/Projects/WnccAdmin.jpg" /></div>
@@ -92,7 +93,62 @@
 
 <!-- CONTACT ME SECTION -->
 <div class="container-fluid contact_main">
-  <h2 class="contact_title">Let's Talk</h2>
+
+<p>
+  <span class="glyphicon glyphicon-envelope"></span>
+  <span class="contact_title">Let's Talk</span>
+</p>
+  <form name="contact_me" class="contact_me">
+    <div class="row labels">
+      <div class="col-sm-3 col-sm-offset-2">
+        name:
+      </div>
+      <div class="col-sm-3 col-sm-offset-2">
+        email:
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-2">
+        <input type="text">
+      </div>
+      <div class="col-sm-3 col-sm-offset-2">
+        <input type="text">
+      </div>
+    </div>
+    <div class="row labels">
+      <div class="col-sm-8 col-sm-offset-2">
+        message:
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <textarea rows="4">
+        </textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div><input type="submit" value="Send Message"></div>
+    </div>
+  </form>
+</div>
+
+<!-- Connect Section -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-1">
+      <div class="social center">
+        <a href="http://www.github.com/luke-perry" target="_blank"><img src="IMG/linkedin_large.png"></a>
+      </div>
+    </div>
+    <div class="col-sm-2 col-sm-offset-1 connect hidden-xs" style="display: table;">
+      connect with me
+    </div>
+    <div class="col-sm-3 col-sm-offset-1">
+      <div class="social center">
+        <a href="https://www.linkedin.com/in/luke-perry" target="_blank"><img src="IMG/Github_Large.png"></a>
+      </div>
+    </div>
+  </div>
 </div>
 
 </body>

@@ -220,6 +220,16 @@ margin-right: 0px;
 }
 
 
+.interests{
+  background-color: #969696;
+  text-align: center;
+  color: white;
+  padding-top: .3em;
+  padding-bottom: .1em;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2em;
+}
+
 .grid {
   display: grid;
   grid-gap: 0px;
@@ -227,6 +237,9 @@ margin-right: 0px;
 }
 .grid div {
   background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65% 65%;
   outline: 2px solid;
   outline-color: white;
   height: calc(99vw / 12);
@@ -234,6 +247,8 @@ margin-right: 0px;
 .grid div:hover {
   background-color: #dddddd;
 }
+
+
 
 
 /* Medium */

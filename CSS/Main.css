@@ -188,12 +188,13 @@ margin-right: 0px;
   font-size: 1.45em;
   border: none;
 
-  border-bottom: 1px solid #888a8c;
+  border-bottom: 2px solid #888a8c;
   margin-bottom: 1.5em;
 }
 
 .contact_me textarea{
-  border: 1px solid #888a8c;
+  margin-top: 2px;
+  border: 2px solid #888a8c;
 }
 
 .contact_me input[type=text]:focus, textarea:focus{
@@ -203,6 +204,7 @@ margin-right: 0px;
 
 .labels{
   color: #888a8c;
+  float: left;
   text-align: left;
   font-family: "open sans Condensed";
   font-weight: bold;
@@ -239,13 +241,14 @@ margin-right: 0px;
   background-color: #eee;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 65% 65%;
+  background-size: 55% 61%;
   outline: 2px solid;
   outline-color: white;
   height: calc(99vw / 12);
 }
 .grid div:hover {
   background-color: #dddddd;
+  background-size: 56% 62%;
 }
 
 

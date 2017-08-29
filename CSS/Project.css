@@ -3,6 +3,7 @@
   background-image: url(../IMG/Code.png);
   text-align: center;
   min-height: calc(2.9em + 29vh);
+  margin-bottom: 5vh;
 }
 .code_img span{
   color: #4A4A4A;
@@ -30,10 +31,10 @@
   padding-top: .2em;
   color: #999999;
 }
-.center{
+.center_logo{
   text-align: center;
 }
-.center img{
+.center_logo img{
   height: 8em;
   position: absolute;
   left: calc(50% - 4em);
@@ -66,4 +67,61 @@
 .github:hover{
   background:transparent  url(../IMG/github_hover.png) center top no-repeat;
   background-size: 3em 3em;
+}
+
+.photo_zone{
+  min-height: calc(71vh - 7.65em);
+}
+
+.photo_zone h1,h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    font-size: 2.5em;
+
+}
+
+.photo_zone p{
+  color: #93a4aa;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 1.3em;
+  line-height: 1.5em;
+}
+
+.photo_zone img{
+  width: 100%;
+}
+
+.alternate{
+  background-color: #eee;
+}
+
+
+.project_link{
+  display: block;
+  padding: 10px;
+  background-color: #313439;
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+.photo_zone a{
+  text-decoration: none;
+}
+.project_link:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.image_contain img{
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

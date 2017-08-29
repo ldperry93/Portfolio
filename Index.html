@@ -16,18 +16,33 @@
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
-  <!-- Jquery and Bootstrap javascript imports -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- javascript imports -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jQuery -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- typeit -->
+
+  <script typ ="text/javascript">
+    $(document).ready(function() {
+      $("#get_to_know").click(function() {
+    	$('html,body').animate({
+    	   scrollTop: $("#begin_main ").offset().top
+    	}, 1000)
+      });
+    });
+  </script>
 </head>
 <body>
 
 <!-- Main Image Section -->
 <div class="container-fluid">
   <div class="full">
+    <div class="hello">
+      Hi, I'm <strong>Luke Perry</strong>
+      <div id="message"></div>
+    </div>
     <a href="#">
       <div class="see_more">
-        <span class="message">get to know me</span><br>
+        <span id="get_to_know" class="message">get to know me</span><br>
         <span class="glyphicon glyphicon-chevron-down gi-2x"></span>
       </div>
     </a>
@@ -35,7 +50,7 @@
 </div>
 
 <!-- About me Section -->
-<div class="filler"></div>
+<div id="begin_main" class="filler"></div>
 <div class="container-fluid quote">
   <div class="row center about_text">
     <div class="col-lg-12 ">
@@ -177,3 +192,12 @@
 
 </body>
 </html>
+
+<script type = 'text/javascript'>
+  $('#message').typeIt({
+     strings: ["- creator", "- problem sovler", "- software developer"],
+     speed: 100,
+     breakLines: false,
+     autoStart: true
+  });
+</script>

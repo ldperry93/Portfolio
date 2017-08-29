@@ -21,6 +21,25 @@ margin-right: 0px;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  text-align: center;
+}
+
+.hello{
+  color: white;
+  font-size: 5em;
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+  line-height: 1em;
+}
+.hello div{
+  font-size: 60%;
+  color: #eee;
 }
 .see_more{
   position:absolute;
@@ -262,8 +281,6 @@ margin-right: 0px;
   display: block;
   margin-top: 2.5vh;
 }
-
-
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px){

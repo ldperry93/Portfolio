@@ -13,6 +13,15 @@ margin-right: 0px;
     margin: 0 auto;
 }
 
+.admin {
+  text-align: center;
+  font-size: 2em;
+  line-height: calc(99vw / 12);
+}
+.admin a{
+  text-decoration:none;
+}
+
 /* MAIN IMAGE SECTION */
 .full {
   background: url(../IMG/Main.jpg) no-repeat center center fixed;

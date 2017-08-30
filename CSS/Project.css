@@ -101,7 +101,8 @@
   display: block;
   padding: 10px;
   background-color: #313439;
-  width: 50%;
+  min-width: 50%;
+  max-width: 80%;
   color: white;
   text-align: center;
   margin: auto;
@@ -124,4 +125,8 @@
   width: 60%;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+.image_contain_2 img{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }

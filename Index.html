@@ -1,193 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Luke Perry | Software Developer</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luke Perry | Software Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap css and custom css imports -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./CSS/Main.css">
+    <!-- Bootstrap css and custom css imports -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Main.css">
 
-  <!-- Font Imports -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Font Imports -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
-  <!-- javascript imports -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jQuery -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap -->
-  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- typeit -->
+    <!-- javascript imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- typeit -->
 
-  <script typ ="text/javascript">
-    $(document).ready(function() {
-      $("#get_to_know").click(function() {
-    	$('html,body').animate({
-    	   scrollTop: $("#begin_main ").offset().top
-    	}, 1000)
-      });
-    });
-  </script>
+    <script src="./JS/GoogleAnalytics.js"></script> <!-- Google Anlytics Import -->
+    <script src="./JS/Main.js"></script> <!-- Various Small Javascript -->
 </head>
 <body>
 
-<!-- Main Image Section -->
+<!-- LANDING IMAGE SECTION -->
 <div class="container-fluid">
-  <div class="full">
+    <div class="full">
     <div class="hello">
-      Hi, I'm <strong>Luke Perry</strong>
-      <div id="message"></div>
+        Hi, I'm <strong>Luke Perry</strong>
+        <div id="message"></div>
     </div>
     <a href="#">
-      <div class="see_more">
-        <span id="get_to_know" class="message">get to know me</span><br>
-        <span class="glyphicon glyphicon-chevron-down gi-2x"></span>
-      </div>
+        <div class="see_more">
+            <span id="get_to_know" class="type_it_message">get to know me</span><br>
+            <span class="glyphicon glyphicon-chevron-down gi-2x"></span>
+        </div>
     </a>
-  </div>
+    </div>
 </div>
 
-<!-- About me Section -->
+<!-- ABOUT ME SECTION -->
 <div id="begin_main" class="filler"></div>
 <div class="container-fluid quote">
-  <div class="row center about_text">
-    <div class="col-lg-12 ">
-      Thanks for stopping by... I'm Luke, a software developer. I like technology because it allows me to make cool stuff. This site is a place to showcase some of my recent work and to help anyone interested in chatting get in touch with me. So, please, look around and reach out if you like! :)
+    <div class="row center about_text">
+        <div class="col-lg-12 ">
+            Thanks for stopping by... I'm Luke, a software developer. I like technology because it allows me to make cool stuff. This site is a place to showcase some of my recent work and to help anyone interested in chatting get in touch with me. So, please, look around and reach out if you like! :)
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- Project Section -->
+<!-- MY PROJECTS SECTION -->
 <div class="container-fluid main_projects">
-  <div class="row">
-    <div class="col-md-4 no_roll">
-      <a href="./Projects/C412.html"> <!-- C412 Project -->
-      <div class="project center">
-        <div class="project_image" style="background-color: #6aa0aa;"><img src="IMG/Projects/C412.png" /></div>
-        <div class="project_details">C4:12 Ministry - Website<br>
-            <span class="project_skill">HTML</span>
-            <span class="project_skill">CSS</span>
-            <span class="project_skill">JavaScript</span>
+    <div class="row">
+        <div class="col-md-4 no_roll">
+        <a href="./Projects/C412.html"> <!-- C412 Project -->
+            <div class="project center">
+                <div class="project_image" style="background-color: #6aa0aa;">
+                    <img src="IMG/Projects/C412.png" />
+                </div>
+                <div class="project_details">
+                    C4:12 Ministry - Website<br> <!-- project title -->
+                    <span class="project_skill">HTML</span>
+                    <span class="project_skill">CSS</span>
+                    <span class="project_skill">JavaScript</span>
+                </div>
+            </div>
+        </a>
         </div>
-      </div>
-      </a>
-    </div>
 
-    <div class="col-md-4 no_roll">
-      <a href="./Projects/DA.html"> <!-- DA Project -->
-      <div class="project center">
-        <div class="project_image" style="background-color: #CCDFC8;"><img src="IMG/Projects/DA.png" /></div>
-        <div class="project_details">Charlotte District Attorney - Website <br>
-          <span class="project_skill">HTML</span>
-          <span class="project_skill">CSS</span>
-          <span class="project_skill">JavaScript</span>
-          <span class="project_skill">PHP</span>
-          <span class="project_skill">SQL</span>
+        <div class="col-md-4 no_roll">
+            <a href="./Projects/DA.html"> <!-- DA Project -->
+            <div class="project center">
+                <div class="project_image" style="background-color: #CCDFC8;">
+                    <img src="IMG/Projects/DA.png" />
+                </div>
+                <div class="project_details">
+                    Charlotte District Attorney - Website <br> <!-- project title -->
+                    <span class="project_skill">HTML</span>
+                    <span class="project_skill">CSS</span>
+                    <span class="project_skill">JavaScript</span>
+                    <span class="project_skill">PHP</span>
+                    <span class="project_skill">SQL</span>
+                </div>
+            </div>
+            </a>
         </div>
-      </div>
-      </a>
-    </div>
 
-    <div class="col-md-4 no_roll">
-      <a href="/Projects/WNCCAdmin.html"> <!-- WNCC Admin Project -->
-      <div class="project center">
-        <div class="project_image" style="background-color: #d8d8d8;"><img src="IMG/Projects/WnccAdmin.jpg" /></div>
-        <div class="project_details">WNCC Admin - Full Stack Effort<br>
-          <span class="project_skill">HTML</span>
-          <span class="project_skill">JavaScript</span>
-          <span class="project_skill">Coldfusion</span>
-          <span class="project_skill">SQL</span>
+        <div class="col-md-4 no_roll">
+            <a href="/Projects/WNCCAdmin.html"> <!-- WNCC Admin Project -->
+            <div class="project center">
+                <div class="project_image" style="background-color: #d8d8d8;">
+                    <img src="IMG/Projects/WnccAdmin.jpg" />
+                </div>
+                <div class="project_details">
+                    WNCC Admin - Full Stack Effort<br> <!-- project title -->
+                    <span class="project_skill">HTML</span>
+                    <span class="project_skill">JavaScript</span>
+                    <span class="project_skill">Coldfusion</span>
+                    <span class="project_skill">SQL</span>
+                </div>
+            </div>
+            </a>
         </div>
-      </div>
-      </a>
     </div>
-  </div>
 </div>
 
 <!-- CONTACT ME SECTION -->
 <div class="container-fluid contact_main">
-
-<p>
-  <span class="glyphicon glyphicon-envelope"></span>
-  <span class="contact_title">let's talk</span>
-</p>
-  <form name="contact_me" class="contact_me">
-    <div class="row">
-      <div class="col-sm-3 col-sm-offset-2">
-        <span class="labels">name: </span>
-        <input type="text">
-      </div>
-      <div class="col-sm-3 col-sm-offset-2">
-        <span class="labels">email: </span>
-        <input type="text">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <span class="labels">message: </span>
-        <textarea rows="6"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <div><input type="submit" value="Send Message"></div>
-    </div>
-  </form>
+    <p>
+        <span class="glyphicon glyphicon-envelope"></span>
+        <span class="contact_title">let's talk</span>
+    </p>
+    <form name="contact_me" class="contact_me">
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-2">
+                <span class="form_labels">name: </span>
+                <input type="text">
+            </div>
+            <div class="col-sm-3 col-sm-offset-2">
+                <span class="form_labels">email: </span>
+                <input type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <span class="form_labels">message: </span>
+                <textarea rows="6"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div><input type="submit" value="Send Message"></div>
+        </div>
+    </form>
 </div>
 
-<!-- Connect Section -->
+<!-- CONNECT SECTION -->
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3 col-sm-offset-1">
-      <div class="social center">
-        <a href="https://www.linkedin.com/in/luke-perry" target="_blank"><img src="IMG/linkedin_large.png"></a>
-      </div>
+    <div class="row">
+        <div class="col-sm-3 col-sm-offset-1">
+            <div class="social center">
+                <a href="https://www.linkedin.com/in/luke-perry" target="_blank"><img src="IMG/linkedin_large.png"></a>
+            </div>
+        </div>
+        <div class="col-sm-2 col-sm-offset-1 connect hidden-xs">
+            connect with me
+        </div>
+        <div class="col-sm-3 col-sm-offset-1">
+            <div class="social center">
+                <a href="http://www.github.com/luke-perry" target="_blank"><img src="IMG/Github_Large.png"></a>
+            </div>
+        </div>
     </div>
-    <div class="col-sm-2 col-sm-offset-1 connect hidden-xs">
-      connect with me
-    </div>
-    <div class="col-sm-3 col-sm-offset-1">
-      <div class="social center">
-        <a href="http://www.github.com/luke-perry" target="_blank"><img src="IMG/Github_Large.png"></a>
-      </div>
-    </div>
-  </div>
 </div>
 
+<!-- SKILLS SECTION -->
 <div class="container-fluid interests" style="margin-top: 15px;">
-  <div class="row">
-    interests & exposure
-  </div>
+    <div class="row">
+        interests & exposure
+    </div>
 </div>
-
 <div class="grid">
-      <div style="background-image: url('IMG/Interests/Html5.png');" title="HTML"> </div>
-      <div style="background-image: url('IMG/Interests/CSS3.png');" title="CSS"> </div>
-      <div style="background-image: url('IMG/Interests/JS.png');" title="JavaScript"> </div>
-      <div style="background-image: url('IMG/Interests/Java.png');" title="Java"> </div>
-      <div style="background-image: url('IMG/Interests/SQL.png');" title="SQL"> </div>
-      <div style="background-image: url('IMG/Interests/Coldfusion.png');" title="ColdFusion"> </div>
-      <div style="background-image: url('IMG/Interests/Git.png');" title="git"> </div>
-      <div style="background-image: url('IMG/Interests/Bootstrap.png');" title="Bootstrap"> </div>
-      <div style="background-image: url('IMG/Interests/Php.png');" title="PHP"> </div>
-      <div style="background-image: url('IMG/Interests/Agile.png');" title="Agile Methodology"> </div>
-      <div style="background-image: url('IMG/Interests/Rails.png');" title="Rails"> </div>
-      <div style="background-image: url('IMG/Interests/Ruby.png');" title="Ruby"> </div>
+    <div style="background-image: url('IMG/Interests/Html5.png');" title="HTML"> </div>
+    <div style="background-image: url('IMG/Interests/CSS3.png');" title="CSS"> </div>
+    <div style="background-image: url('IMG/Interests/JS.png');" title="JavaScript"> </div>
+    <div style="background-image: url('IMG/Interests/Java.png');" title="Java"> </div>
+    <div style="background-image: url('IMG/Interests/SQL.png');" title="SQL"> </div>
+    <div style="background-image: url('IMG/Interests/Coldfusion.png');" title="ColdFusion"> </div>
+    <div style="background-image: url('IMG/Interests/Git.png');" title="git"> </div>
+    <div style="background-image: url('IMG/Interests/Bootstrap.png');" title="Bootstrap"> </div>
+    <div style="background-image: url('IMG/Interests/Php.png');" title="PHP"> </div>
+    <div style="background-image: url('IMG/Interests/Agile.png');" title="Agile Methodology"> </div>
+    <div style="background-image: url('IMG/Interests/Rails.png');" title="Rails"> </div>
+    <div style="background-image: url('IMG/Interests/Ruby.png');" title="Ruby"> </div>
 </div>
 
-
-<div class="container-fluid interests" style="background-color: white">
-  <div class="row">
-    interests & exposure
-  </div>
-</div>
-
-<!-- Footer -->
+<!-- FOOTER SECTION -->
 <div class="container-fluid footer">
-  <div class="row">
-    <img src="./IMG/Logo_alt.png" />
-  </div>
+    <div class="row">
+        <img src="./IMG/Logo_alt.png" />
+    </div>
 </div>
 
 </body>

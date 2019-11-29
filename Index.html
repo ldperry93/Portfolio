@@ -114,27 +114,29 @@
         <span class="glyphicon glyphicon-envelope"></span>
         <span class="contact_title">let's talk</span>
     </p>
-    <form name="contact_me" class="contact_me">
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-2">
-                <span class="form_labels">name: </span>
-                <input type="text">
-            </div>
-            <div class="col-sm-3 col-sm-offset-2">
-                <span class="form_labels">email: </span>
-                <input type="text">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <span class="form_labels">message: </span>
-                <textarea rows="6"></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <div><input type="submit" value="Send Message"></div>
-        </div>
-    </form>
+    <div id="form-container">
+        <form name="contact_me" id="contact_me" class="contact_me">
+                <div class="row">
+                    <div class="col-sm-3 col-sm-offset-2">
+                        <span class="form_labels">name: </span>
+                        <input name="name" type="text">
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-2">
+                        <span class="form_labels">email: </span>
+                        <input name="email" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <span class="form_labels">message: </span>
+                        <textarea name="message" rows="6"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div><input type="submit" value="Send Message"></div>
+                </div>
+            </form>
+    </div>
 </div>
 
 <!-- MEDIUM SECTION -->

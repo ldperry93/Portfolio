@@ -12,14 +12,6 @@
 .center{
     margin: 0 auto;
 }
-.admin {
-    text-align: center;
-    font-size: 2em;
-    line-height: calc(99vw / 12);
-}
-.admin a{
-    text-decoration:none;
-}
 .no_roll a{
     text-decoration: none;
 }
@@ -76,7 +68,7 @@
     background-color: white;
 }
 .quote{
-    background-color: #4484CE;
+    background-color: #2A3A3F;
 }
 .about_text{
     color: white;
@@ -143,33 +135,8 @@
 }
 .project_skill:hover {
     text-decoration: none;
-}
-
-/* CONNECT or SOCIAL MEDIA SECTION */
-.connect{
-    text-align: center;
-    color: #cf6766;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2.4em;
-    margin-top: 1em;
-}
-.social{
-    width: 80%;
-    max-width: 60vw;
-    background-color: white;
-    border-width: 2px;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    border-style: solid;
-    border-color: #444444;
-    text-align: center;
-}
-.social:hover{
-    border-color: #cf6766;
-}
-.social img {
-    width: 80%;
-    padding: 10px;
+    background-color: #50a9d1;
+    color: white;
 }
 
 /* CONTACT SECTION */
@@ -204,14 +171,19 @@
 
     border-bottom: 2px solid #888a8c;
     margin-bottom: 1.5em;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 .contact_me textarea{
     margin-top: 2px;
+    padding: 6px 10px 6px 10px;
     border: 2px solid #888a8c;
 }
 .contact_me input[type=text]:focus, textarea:focus{
     outline: none;
     border-color: #cf6766;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;    
 }
 .contact_me input[type=submit] {
     border: 0;
@@ -228,34 +200,49 @@
     background-color: #bc3441;
 }
 
-/* INTERESTS SECTION */
-.interests{
-    background-color: #969696;
-    text-align: center;
-    color: white;
-    padding-top: .3em;
-    padding-bottom: .1em;
-    font-family: 'Questrial', sans-serif;
-    font-size: 2em;
-}
-.grid {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat(auto-fill, calc(100%/12));
-    margin-bottom: 3em;
-}
-.grid div {
+/* MEDIUM SECTION */
+.medium-section {
     background-color: #eee;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 55% 61%;
-    outline: 2px solid;
-    outline-color: white;
-    height: calc(99vw / 12);
+    text-align: center;
 }
-.grid div:hover {
-    background-color: #dddddd;
-    background-size: 56% 62%;
+
+.medium-section img {
+    padding: 2em 0px 2em 0px;
+    max-width: 60vw;
+}
+
+@media(min-width:760px) {
+    .medium-section img {
+        width: 30vw;
+    }
+}
+
+/* CONNECT or SOCIAL MEDIA SECTION */
+.connect{
+    text-align: center;
+    color: #cf6766;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.4em;
+    margin-top: 1em;
+}
+
+.social{
+    width: 80%;
+    max-width: 60vw;
+    background-color: white;
+    border-width: 2px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-style: solid;
+    border-color: #444444;
+    text-align: center;
+}
+.social:hover{
+    border-color: #cf6766;
+}
+.social img {
+    width: 80%;
+    padding: 10px;
 }
 
 /* FOOTER SECTION */
@@ -268,33 +255,4 @@
     margin: auto;
     display: block;
     margin-top: 2.5vh;
-}
-
-/* MEDIA QUERIES FOR GRID */
-/* Medium */
-@media(min-width:992px) and (max-width:1199px){
-    .grid {
-        grid-template-columns: repeat(auto-fill, calc(100%/6));
-    }
-    .grid div {
-        height: calc(99vw / 6);
-    }
-}
-/* Small */
-@media(min-width:768px) and (max-width:991px){
-    .grid {
-        grid-template-columns: repeat(auto-fill, calc(100%/4));
-    }
-    .grid div {
-        height: calc(99vw / 4);
-    }
-}
-/* Extra Small */
-@media(max-width:767px){
-    .grid {
-        grid-template-columns: repeat(auto-fill, calc(100%/3));
-    }
-    .grid div {
-        height: calc(99vw / 3);
-    }
 }

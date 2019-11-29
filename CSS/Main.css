@@ -18,9 +18,18 @@
 
 /* MAIN IMAGE SECTION */
 .full {
-    background: url(../IMG/Main.jpg) no-repeat center center fixed;
+    background: url(../IMG/Main.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100vh;
     text-align: center;
+}
+@media(min-width:760px) {
+    .full {
+        background: url(../IMG/Main.jpg) no-repeat center center fixed;   
+    }
 }
 .hello{
     color: white;

@@ -26,9 +26,12 @@ $(document).ready(function () {
             return
         }
 
+
+
         if ($('#email-message').length !== 0) {
             $('#email-message').empty()
         }
+
         $('#contact_me').slideUp();
         $('#form-container').append('<div id="email-message">Thanks for reaching out! I will be in touch soon!</div>');
     });

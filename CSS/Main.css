@@ -67,7 +67,7 @@
 
 /* ABOUT SECTION */
 .filler {
-    height: 2px;
+    height: 1px;
     width: 100%;
     background-color: white;
 }
@@ -77,11 +77,12 @@
 .about_text {
     color: white;
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 2em;
-    padding-top: 2em;
+    padding-bottom: 2.1em;
+    padding-top: 2.1em;
     text-align: center;
     font-size: 1.25em;
     max-width: 1200px;
+    line-height: 1.60em;
 }
 
 /* PROJECT SECTION */

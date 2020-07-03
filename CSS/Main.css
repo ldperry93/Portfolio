@@ -197,6 +197,8 @@
 .contact_me input[type=text]:-webkit-autofill:focus, 
 .contact_me input[type=text]:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px #313439 inset !important;
+    background-color: #313439 !important;
+    background-clip: content-box;
     -webkit-text-fill-color: white;
 }
 .contact_me textarea {

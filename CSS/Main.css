@@ -2,17 +2,17 @@
 .container-fluid {
     padding: 0px;
 }
-.row{
+.row {
     margin-left: 0px;
     margin-right: 0px;
 }
-.gi-2x{
+.gi-2x {
     font-size: 2em;
 }
-.center{
+.center {
     margin: 0 auto;
 }
-.no_roll a{
+.no_roll a {
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@
         background: url(../IMG/Main.jpg) no-repeat center center fixed;   
     }
 }
-.hello{
+.hello {
     color: white;
     font-size: 5em;
     font-family: 'Montserrat', sans-serif;
@@ -44,11 +44,11 @@
     margin-top: 35vh;
     line-height: 1em;
 }
-.hello div{
+.hello div {
     font-size: 60%;
     color: #eee;
 }
-.see_more{
+.see_more {
     position:absolute;
     top:100vh;
     transform:translateY(-120%);
@@ -58,23 +58,23 @@
     font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
 }
-.see_more .type_it_message{
+.see_more .type_it_message {
     color: rgba(255,255,255,0.7);
 }
-.see_more .type_it_message:hover{
+.see_more .type_it_message:hover {
     color: rgba(255,255,255,1);
 }
 
 /* ABOUT SECTION */
-.filler{
+.filler {
     height: 2px;
     width: 100%;
     background-color: white;
 }
-.quote{
+.quote {
     background-color: #2A3A3F;
 }
-.about_text{
+.about_text {
     color: white;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 2em;
@@ -85,32 +85,35 @@
 }
 
 /* PROJECT SECTION */
-.main_projects{
+.main_projects {
     background-color: #eee;
     min-height: 300px;
 }
-.project{
+
+.project {
     width: 90%;
     box-shadow: 0 1px 3px rgba(0,0,0,0.32);
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.project:hover{
+.project:hover {
     box-shadow: 0 4px 4px rgba(0,0,0,0.32);
     cursor: pointer;
 }
-.project_image{
+
+.project_image {
     background-color: white;
     text-align: center;
     min-height: 300px;
     padding-top: 5em;
     padding-bottom: 5em;
 }
-.project_image img{
+.project_image img {
     width: 11em;
     height: 11em;
 }
-.project_details{
+
+.project_details {
     background-color: white;
     text-align: center;
     padding: .20em;
@@ -120,6 +123,7 @@
     color: #4f4e4e;
     text-decoration: none;
 }
+
 .project_skill {
     border: 1px solid #50a9d1;
     margin-right: 10px;
@@ -148,28 +152,33 @@
     color: #d84e5b;
     padding-bottom: 1em;
 }
-.contact_main{
+
+.contact_main {
     background-color: #313439;
     text-align: center;
     padding-top: 1em;
 }
-.contact_title{
+
+.contact_title {
     color: white;
     font-size: 2.7em;
     font-family: 'Questrial', sans-serif;
     font-weight: bold;
 }
-.glyphicon-envelope{
+
+.glyphicon-envelope {
   color: #bc3441;
   font-size: 1.3em;
 }
-.form_labels{
+
+.form_labels {
     color: #888a8c;
     float: left;
     text-align: left;
     font-family: "open sans Condensed";
     font-weight: bold;
 }
+
 .contact_me input[type=text], textarea {
     width: 100%;
     background: none;
@@ -182,12 +191,19 @@
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
-.contact_me textarea{
+.contact_me input[type=text]:-webkit-autofill,
+.contact_me input[type=text]:-webkit-autofill:hover, 
+.contact_me input[type=text]:-webkit-autofill:focus, 
+.contact_me input[type=text]:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #313439 inset !important;
+    -webkit-text-fill-color: white;
+}
+.contact_me textarea {
     margin-top: 2px;
     padding: 6px 10px 6px 10px;
     border: 2px solid #888a8c;
 }
-.contact_me input[type=text]:focus, textarea:focus{
+.contact_me input[type=text]:focus, textarea:focus {
     outline: none;
     border-color: #cf6766;
     -webkit-border-radius: 0px;
@@ -203,6 +219,7 @@
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1.5em;
+    outline: none;
 }
 .contact_me input[type=submit]:hover {
     background-color: #bc3441;
@@ -213,28 +230,27 @@
     background-color: #eee;
     text-align: center;
 }
-
 .medium-section img {
     padding: 2em 0px 2em 0px;
     max-width: 60vw;
 }
-
 @media(min-width:760px) {
     .medium-section img {
-        width: 30vw;
+        width: 20vw;
     }
 }
 
 /* CONNECT or SOCIAL MEDIA SECTION */
-.connect{
+.connect {
     text-align: center;
     color: #cf6766;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.0em;
     font-size: 2.4em;
-    margin-top: 1em;
+    margin-top: 1em;    
 }
 
-.social{
+.social {
     width: 80%;
     max-width: 60vw;
     background-color: white;
@@ -245,7 +261,7 @@
     border-color: #444444;
     text-align: center;
 }
-.social:hover{
+.social:hover {
     border-color: #cf6766;
 }
 .social img {
@@ -254,7 +270,7 @@
 }
 
 /* FOOTER SECTION */
-.footer{
+.footer {
     background-color: #2A3A3F;
     height: 20vh;
 }

@@ -6,10 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap css and custom css imports -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./CSS/Main.css">
-
     <!-- Font Imports -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -21,6 +17,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jQuery -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- typeit -->
+    <script src='https://www.google.com/recaptcha/api.js'></script> <!-- recaptcha -->
+
+    <!-- Bootstrap css and custom css imports -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Main.css">
 
     <script src="./JS/GoogleAnalytics.js"></script> <!-- Google Anlytics Import -->
     <script src="./JS/Main.js"></script> <!-- Various Small Javascript -->
@@ -137,6 +138,11 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <span class="form_labels">message: </span>
                         <textarea name="message" rows="6"></textarea>
+                    </div>
+                </div>
+                <div class="row captcha col-sm-12">
+                    <div id="recaptcha" class="g-recaptcha custom-captcha" data-theme="dark"
+                        data-sitekey="6LdkFa0ZAAAAAGrSM4H21gbE_boC08OKW_RAYzb-">
                     </div>
                 </div>
                 <div class="row">

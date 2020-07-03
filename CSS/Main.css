@@ -225,6 +225,12 @@
     background-color: #bc3441;
 }
 
+.captcha {
+    display: flex;
+    margin-bottom: 1.5em;
+    justify-content: center;
+}
+
 /* MEDIUM SECTION */
 .medium-section {
     background-color: #eee;

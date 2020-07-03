@@ -35,7 +35,7 @@ $(document).ready(function () {
         Email.send({
             SecureToken: "ec06a7e8-20b7-49c1-a9f1-ade3f38644fa",
             To: 'ldperry93@gmail.com',
-            From: values.email,
+            From: 'ldperry93@gmail.com',
             Subject: "Portfolio - Let's Talk",
             Body: values.message
         }).then(function () {

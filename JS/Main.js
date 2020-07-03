@@ -26,13 +26,22 @@ $(document).ready(function () {
             return
         }
 
-
-
         if ($('#email-message').length !== 0) {
             $('#email-message').empty()
         }
 
         $('#contact_me').slideUp();
-        $('#form-container').append('<div id="email-message">Thanks for reaching out! I will be in touch soon!</div>');
+
+        Email.send({
+            SecureToken: "ec06a7e8-20b7-49c1-a9f1-ade3f38644fa",
+            To: 'ldperry93@gmail.com',
+            From: values.email,
+            Subject: "Portfolio - Let's Talk",
+            Body: values.message
+        }).then(function () {
+            $('#form-container').append('<div id="email-message">Thanks for reaching out! :) I will be in touch soon!</div>');
+        }).catch(function () {
+            $('#form-container').append('<div id="email-message">Opps! Error, try again, please.</div>');
+        });
     });
 });
